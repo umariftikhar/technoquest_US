@@ -1,0 +1,84 @@
+.mlddm
+{	margin: 0;
+	border-top: 1px solid #DDD;}
+
+	.mlddm li
+	{	float: left;
+		padding: 0 40px 0 0;
+		margin: 0;
+		list-style: none;}
+
+	/*ACTIVE*/	
+		
+	.mlddm li.active a, .mlddm li.active a#buttonnohover
+	{	top: -1px;
+		padding: 15px 10px 12px;
+		text-transform: uppercase;
+		padding-top: 12px;
+		color: #777;
+		border-top-color: #AAA;
+		border-top-width: 4px}
+		
+	.mlddm li.active a:hover, .mlddm li.active a#buttonhover
+	{	top: -1px;
+		padding: 15px 10px 12px;
+		text-transform: uppercase;
+		padding-top: 12px;
+		color: #777;
+		border-top-color: #AAA;
+		border-top-width: 4px}
+		
+		
+	/*NORMAL*/
+		
+	.mlddm li a, .mlddm li a#buttonnohover
+	{	top: -1px;
+		position: relative;
+		display: block;
+		padding: 15px 5px 12px;
+		color: #999;
+		text-transform: uppercase;
+		border-top: 1px solid transparent;}
+		
+	.mlddm li a:hover, .mlddm li a#buttonhover
+	{	position: relative;
+		top: -1px;
+		display: block;
+		padding: 15px 5px 12px;
+		color: #777;
+		text-decoration: none;
+		border-top-color: #AAA;
+		border-top-width: 1px}
+
+		.mlddm ul.sub
+		{	margin: 0;
+			padding: 0px 0px 0px 0px;
+			visibility: hidden;
+			position: absolute;
+			border: 0px}
+		
+		.mlddm ul.sub li
+		{	display: block;
+			float: none;
+			padding: 0px 0px 0px 0px;
+			border: 0px;}
+
+		/*NORMAL*/
+		
+		.mlddm ul.sub li a, .mlddm ul li a#buttonnohover
+		{	border: 0px;
+			background: lightgrey;
+			padding: 10px;
+			white-space: nowrap;}
+		
+		.mlddm ul.sub li a:hover, .mlddm ul li a#buttonhover
+		{	border: 0px;
+			background: white;
+			padding: 10px;
+			white-space: nowrap;}
+
+		.mlddm .hsub
+		{	background: no-repeat right url(../img/arrow.gif)}
+
+		.mlddm .hsub:hover
+		{	background: #C4C3C4 no-repeat right url(../img/arrow.gif)}

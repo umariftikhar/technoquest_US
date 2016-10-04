@@ -1,0 +1,12 @@
+#contact-map {
+	margin: -1.0em -50px 1.0em;
+}
+
+
+@media (max-width: 767px) {
+	
+	#contact-map {
+		margin: -12px 0 0;
+	}
+	
+}
